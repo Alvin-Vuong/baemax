@@ -4,10 +4,20 @@
 ::
 :: 	- [PROBS THIS b/c easier] pick a random number and have bunch of if/else statements that will play a song depending on the number
 
-set /a num=%random% %% 3-0
+set /a num=%random% %% 5-0
 
-if %num%==0 start C:\Users\Allison\Documents\GitHub\baemax\PlayingSong\Songs\LoseYourself-Eminem.mp3
+::if %num%==0 start C:\Users\Allison\Documents\GitHub\baemax\PlayingSong\Songs\LoseYourself-Eminem.mp3
 
-if %num%==1 start C:\Users\Allison\Documents\GitHub\baemax\PlayingSong\Songs\Happy-PharrellWilliams.mp3
+::if %num%==1 start C:\Users\Allison\Documents\GitHub\baemax\PlayingSong\Songs\Happy-PharrellWilliams.mp3
 
-if %num%==2 start C:\Users\Allison\Documents\GitHub\baemax\PlayingSong\Songs\Gravity-JohnMayer.mp3
+::if %num%==2 start C:\Users\Allison\Documents\GitHub\baemax\PlayingSong\Songs\Gravity-JohnMayer.mp3
+
+if %num%==0 start C:\Users\Paul\Desktop\baemax\PlayingSong\Songs\ISeeTheLight-Tangled.mp3
+
+if %num%==1 start C:\Users\Paul\Desktop\baemax\PlayingSong\Songs\TheLazySong-BrunoMars.mp3
+
+if %num%==2 start C:\Users\Paul\Desktop\baemax\PlayingSong\Songs\ImYours-JasonMraz.mp3
+
+if %num%==3 start C:\Users\Paul\Desktop\baemax\PlayingSong\Songs\TaleAsOldAsTime.mp3
+
+if %num%==4 start C:\Users\Paul\Desktop\baemax\PlayingSong\Songs\LaVieEnRose-LouisArmstrong.mp3
