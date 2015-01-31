@@ -2,6 +2,10 @@ TODO: TODO's go here.
 TODO: Machine learning
 TODO: Determine emotional states
 
+------------------------------------------------------------------
+1/31/2015 2:20 PST
+
+Created batch files for the four emotions 
 
 ------------------------------------------------------------------
 1/31/2015 2:08 PST
