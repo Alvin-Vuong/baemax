@@ -14,7 +14,7 @@ import subprocess
 
 satisfied = False
 while satisfied == False:
-	emotion = 3
+	emotion = 2
 	if emotion == 0:
 
 		#filepath="path of the batch file"

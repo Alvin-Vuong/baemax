@@ -1,6 +1,13 @@
 TODO: TODO's go here.
 TODO: Machine learning
 TODO: Determine emotional states
+TODO: Make the satisfied name not start with ZZ
+
+------------------------------------------------------------------
+1/31/2015 3:49 PST
+
+Got each song to play before asking if the user is satisfied with
+his care.(name starts with ZZ now)
 
 ------------------------------------------------------------------
 1/31/2015 10:37 PST
