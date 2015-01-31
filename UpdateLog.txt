@@ -3,6 +3,11 @@ TODO: Machine learning
 TODO: Determine emotional states
 
 ------------------------------------------------------------------
+1/31/2015 2:48 PST
+
+Completed skeleton for response to the emotions (will play appropriate playlist of songs)
+
+------------------------------------------------------------------
 1/31/2015 2:20 PST
 
 Created batch files for the four emotions 
