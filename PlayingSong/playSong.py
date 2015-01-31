@@ -1,14 +1,9 @@
 import subprocess
-import re
 
-varCommand = "C:\Users\Paul\Desktop\baemax\PlayingSong\Test.cmd"
-#varCommand = raw_input ("Enter URL")
+#filepath="path of the batch file"
+filepath="C:/Users/Allison/Desktop/tester.bat"
+p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
 
-myProcess = subprocess.Popen(
-	[varCommand],
-	stdout = subprocess.PIPE,
-	stderr = subprocess.PIPE)
-	
-out, error = myProcess.communicate()
-
-print out
+stdout, stderr = p.communicate()
+print p.returncode 
+# 0 if success

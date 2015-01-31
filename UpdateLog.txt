@@ -3,6 +3,12 @@ TODO: Machine learning
 TODO: Determine emotional states
 
 ------------------------------------------------------------------
+1/31/2015 1:55 PST
+
+Updated playSong.py to execute a batch file
+Added playHappy.cmd that opens and plays an .mp3 file
+
+------------------------------------------------------------------
 1/31/2015 1:34 PST
 
 Created new file "PlayingSong" which now holds the file "Songs"
