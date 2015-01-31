@@ -1,6 +1,15 @@
 TODO: TODO's go here.
 TODO: Machine learning
 TODO: Determine emotional states
+TODO: Loop while asking for satisfaction
+
+------------------------------------------------------------------
+1/31/2015 7:09 PST
+
+4-5 songs have been added to each emotion and now properly chooses
+a random song based on user's emotional state. Also added a rough
+code for looping while asking "are you satisfied". Currently
+commented out.
 
 ------------------------------------------------------------------
 1/31/2015 5:18 PST
