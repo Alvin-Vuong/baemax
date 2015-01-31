@@ -12,62 +12,62 @@ import subprocess
 # 0 = low&negative, 1 (01) = low&positive, 2 (10) = high&negative, 3 (11) = high&positive
 
 
-#satisfied = False
-#while satisfied == False:
-emotion = 3
-if emotion == 0:
+satisfied = False
+while satisfied == False:
+	emotion = 3
+	if emotion == 0:
 
-	#filepath="path of the batch file"
-	#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/SadSongs.bat"
-	filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/SadSongs.bat"
-	p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
+		#filepath="path of the batch file"
+		#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/SadSongs.bat"
+		filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/SadSongs.bat"
+		p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
 
-	stdout, stderr = p.communicate()
-	print p.returncode 
-	# 0 if success
+		stdout, stderr = p.communicate()
+		print p.returncode 
+		# 0 if success
 
-elif emotion == 1:
-	
-	#filepath="path of the batch file"
-	#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/CalmSongs.bat"
-	filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/CalmSongs.bat"
-	p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
+	elif emotion == 1:
+		
+		#filepath="path of the batch file"
+		#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/CalmSongs.bat"
+		filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/CalmSongs.bat"
+		p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
 
-	stdout, stderr = p.communicate()
-	print p.returncode 
-	# 0 if success
+		stdout, stderr = p.communicate()
+		print p.returncode 
+		# 0 if success
 
-elif emotion == 2:
+	elif emotion == 2:
 
-	#filepath="path of the batch file"
-	#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/AngrySongs.bat"
-	filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/AngrySongs.bat"
-	p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
+		#filepath="path of the batch file"
+		#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/AngrySongs.bat"
+		filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/AngrySongs.bat"
+		p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
 
-	stdout, stderr = p.communicate()
-	print p.returncode 
-	# 0 if success
-	
-elif emotion == 3:
-
-	#filepath="path of the batch file"
-	#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/HappySongs.bat"
-	filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/HappySongs.bat"
-	p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
-
-	stdout, stderr = p.communicate()
-	print p.returncode 
+		stdout, stderr = p.communicate()
+		print p.returncode 
 		# 0 if success
 		
-#	filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/satisfiedWithCare.bat"
-#	p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
-#
-#	stdout, stderr = p.communicate()
-#	print p.returncode
-#	
-#	user_response = input("Are you satisfied with your care?")
-#	if user_respone = "Yes":
-#		satisfied = True
-#	else:
-#		satisfied = False
+	elif emotion == 3:
+
+		#filepath="path of the batch file"
+		#filepath="C:/Users/Allison/Documents/GitHub/baemax/PlayingSong/HappySongs.bat"
+		filepath="C:/Users/Paul/Desktop/baemax/PlayingSong/HappySongs.bat"
+		p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
+
+		stdout, stderr = p.communicate()
+		print p.returncode 
+			# 0 if success
+		
+	newfilepath="C:/Users/Paul/Desktop/baemax/PlayingSong/satisfiedWithCare.bat"
+	p = subprocess.Popen(newfilepath, shell=True, stdout = subprocess.PIPE)
+
+	stdout, stderr = p.communicate()
+	print p.returncode
+	
+	user_response = raw_input("Are you satisfied with your care? ")
+	if user_response == "Yes":
+		satisfied = True
+	else:
+		satisfied = False
 	
