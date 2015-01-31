@@ -2,6 +2,12 @@ TODO: TODO's go here.
 TODO: Machine learning
 TODO: Determine emotional states
 
+
+------------------------------------------------------------------
+1/31/2015 2:08 PST
+
+Added songs for each emotion
+
 ------------------------------------------------------------------
 1/31/2015 1:55 PST
 
