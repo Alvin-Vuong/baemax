@@ -1,4 +1,6 @@
 TODO: TODO's go here.
+TODO: Machine learning
+TODO: Determine emotional states
 
 ------------------------------------------------------------------
 1/30/2015 11:07 PST (PUSHED TO GITHUB)
