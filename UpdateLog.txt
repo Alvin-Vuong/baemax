@@ -3,6 +3,11 @@ TODO: Machine learning
 TODO: Determine emotional states
 
 ------------------------------------------------------------------
+1/31/2015 5:18 PST
+
+Updated the batch files to play a single, random song
+
+------------------------------------------------------------------
 1/31/2015 2:48 PST
 
 Completed skeleton for response to the emotions (will play appropriate playlist of songs)

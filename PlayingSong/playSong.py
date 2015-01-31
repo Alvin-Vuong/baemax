@@ -12,7 +12,7 @@ import subprocess
 # 0 = low&negative, 1 (01) = low&positive, 2 (10) = high&negative, 3 (11) = high&positive
 
 # INPUT 1: HAPPY
-emotion = 0
+emotion = 3
 if emotion == 0:
 
 	#filepath="path of the batch file"
