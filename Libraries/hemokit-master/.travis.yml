@@ -1,0 +1,12 @@
+language: haskell
+
+ghc:
+  - 7.8
+  - 7.6
+
+before_install:
+  - sudo apt-get install libudev-dev libfftw3-dev
+  - cabal install alex happy
+  # Work around https://github.com/haskell/cabal/issues/1666: install Cabal
+  - cabal install Cabal
+  - cabal install gtk2hs-buildtools

@@ -2,6 +2,11 @@ TODO: TODO's go here.
 TODO: Machine learning
 TODO: Determine emotional states
 TODO: Make the satisfied name not start with ZZ
+------------------------------------------------------------------
+1/31/2015 5:02 PST
+
+Added arousal.py and valence.py (code for determining arousal/valence values)
+Added baemax_trainer.xml OpenVibe Scenario file. (Skeleton for ML)
 
 ------------------------------------------------------------------
 1/31/2015 3:49 PST
